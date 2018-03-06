@@ -1,0 +1,31 @@
+{
+  "Operators":[
+    {
+      "name": "megafon",
+      "title": "Мегафон",
+      "pic":"megafon.png",
+      "mask":"(999) 999-99-99"
+    },
+    {
+      "name": "beeline",
+      "title": "Билайн",
+      "pic":"beeline.png",
+      "mask":"(999) 999-99-99"
+    },
+    {
+      "name": "mts",
+      "title": "МТС",
+      "pic":"mts.png",
+      "mask":"(999) 999-99-99"
+    },
+    {
+      "name": "yota",
+      "title": "Йота",
+      "pic":"yota.png",
+      "mask":"(999) 999-99-99"
+    }
+
+  ]
+
+
+}
