@@ -12,8 +12,6 @@ module.exports = {
         vendor: [
             "axios",
             "bootstrap",
-            "moment",
-            "popper.js",
             "react",
             "react-dom",
             "react-redux",

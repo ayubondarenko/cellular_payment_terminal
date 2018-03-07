@@ -13,10 +13,8 @@
   },
   "description": "An example of how to build static website using bootstrap",
   "scripts": {
-    "start": "npm run build",
-    "build": "webpack -p --display-error-details --color --watch",
-    "server": "node ./server/server.js",
-    "dev": "npm run server | npm run build"
+    "build": "webpack -p",
+    "build_dev": "webpack -p --display-error-details --color --watch"
   },
   "license": "MIT",
   "devDependencies": {
@@ -41,13 +39,10 @@
   "dependencies": {
     "axios": "^0.17.1",
     "bootstrap": "^4.0.0",
-    "moment": "^2.20.1",
     "popper.js": "^1.12.9",
     "react": "^16.2.0",
-    "react-datepicker": "^1.1.0",
     "react-dom": "^16.2.0",
     "react-input-mask": "^1.2.2",
-    "react-maskedinput": "^4.0.1",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-simple-currency": "^1.0.16",
