@@ -26,7 +26,7 @@ export default class NumberField extends Component {
         // console.log('рисую поле', this);
         return (
             <div className="col">
-                <div className="row text-field">
+                <div className="row text-field input-group">
                     <label class="label flex col-sm-3">{this.props.label}:</label>
                     <div className="flex col-sm-6 ">
                         <SimpleCurrencyInput

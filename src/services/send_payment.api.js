@@ -11,8 +11,6 @@ export function send_payment() {
         if (isPaid) setTimeout(resolve, 800, isPaid);
         else setTimeout(reject, 1000, isPaid);
     });
-
     return promise;
-
 }
 

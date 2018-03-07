@@ -26,9 +26,9 @@ export default class StringField extends Component {
         // console.log('рисую поле', this.props);
         return (
             <div className="col">
-                <div className="row text-field">
-                    <label class="label flex col-sm-3">{this.props.label}:</label>
-                    <div className="flex col-sm-6 ">
+                <div className="row text-field input-group">
+                    <label class="label flex  col-sm-3">{this.props.label}:</label>
+                    <div className="flex  col-sm-6 ">
                         <InputMask
                             mask={this.props.mask}
                             placeholder={this.props.label}
