@@ -4,9 +4,9 @@
 
 Demo: https://ayubondarenko.github.io/cellular_payment_terminal/
 
-_Installation_: `npm run build`
+1. _Installation_: `npm run build`
 
-_Open in browser_: _`./docs/index.html`_
+2. _Open in browser_: _`./docs/index.html`_
 
 <hr>
 
