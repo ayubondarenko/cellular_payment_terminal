@@ -17,7 +17,8 @@ class Main extends Component {
                     {this.props.operators ? this.props.operators.map(o => (
                             <div class="col-12 col-sm-6 col-md-4 col-lg-3 "
                             style={{marginTop: 30}}                            >
-                                <Link to={'/operator/'+o.name }
+                                <Link class="size100"
+                                      to={'/operator/'+o.name }
                                       onClick={e => {
                                           this.props.onClick(o)
                                       }}>

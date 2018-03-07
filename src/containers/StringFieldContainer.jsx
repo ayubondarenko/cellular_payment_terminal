@@ -57,7 +57,6 @@ export default connect(state => ({}),
             });
         },
         checkError: (fieldName, value, mask) => {
-            console.log('checkError:',fieldName, value, mask)
             dispatch({
                 type: 'CHECK_ERROR', payload: {
                     fieldName: fieldName,

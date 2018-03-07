@@ -58,7 +58,6 @@ module.exports = {
             {name: 'vendor', filename: 'vendor.bundle.js'}),
 
         new CopyWebpackPlugin([
-            {from: 'db.json', to: 'db.json'},
             {from: 'index.html', to: 'index.html'},
             {from: './pics', to: './pics'}
         ])

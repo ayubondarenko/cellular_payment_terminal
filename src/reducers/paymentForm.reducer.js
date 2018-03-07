@@ -1,7 +1,8 @@
 /**
  * Created by alexander on 23.01.18.
  */
-import {paymentFormValidator} from "../services/paymentForm.validator";
+import {paymentFormValidator, cleanForm} from "../services/paymentForm.service";
+
 const initData = {
     amount: {
         title: 'Сумма',
@@ -29,8 +30,7 @@ const initData = {
 export default function paymentForm(state = initData, action) {
 
     if (action.type === 'OPERATOR_SELECTED') {
-        // console.log('оператора устанавливаю:', action.payload)
-        return {...initData, operator: action.payload};
+        return {...(cleanForm(initData)), operator: action.payload};
     }
 
     if (action.type === 'START_PAYMENT') {

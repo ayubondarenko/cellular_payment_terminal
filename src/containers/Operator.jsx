@@ -13,7 +13,6 @@ class Operator extends Component {
             && this.props.form.operator.name != this.props.match.params.name) {
             if (this.props.operators && this.props.operators.length
             ) {
-                // console.log('Operator вызываю setOperator :', this.props);
                 const operatorName = this.props.match.params.name;
                 const operator = this.props.operators.filter(o => (o.name == operatorName))[0];
                 if (operator)
@@ -24,7 +23,6 @@ class Operator extends Component {
         this.disable = this.props.form.paymentStatus == 'payment_passed'
             || this.props.form.paymentStatus == 'start_payment'
             || this.props.form.paymentStatus == 'return_to_main';
-        console.log('Operator:', this.props);
         return (
             <div className="container">
                 <div className="row">
@@ -104,9 +102,9 @@ export default connect(state => ({
 
             },
             setUnknown: (operatorName) => {
-                console.log("Неизвестный:", operatorName);
+                console.log("Неизвестный оператор:", operatorName);
                 dispatch({
-                    type: 'UNKNOWN_OPERATOR', payload: operatorName
+                    type: 'RETURN_TO_MAIN', payload: operatorName
                 });
 
             },

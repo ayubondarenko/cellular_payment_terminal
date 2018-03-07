@@ -4,7 +4,7 @@
 
 import {delay} from "redux-saga";
 import {call, put, takeLatest} from "redux-saga/effects";
-import {checkAllErrors} from "../services/paymentForm.validator";
+import {checkAllErrors} from "../services/paymentForm.service";
 import{send_payment} from "../services/send_payment.api"
 
 function* checkAndPushPayment(action) {

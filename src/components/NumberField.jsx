@@ -6,7 +6,6 @@ import SimpleCurrencyInput from "react-simple-currency";
 
 export default class NumberField extends Component {
     onChange = number => {
-        console.log('NumberField onChange:', number);
         this.value = number;
         this.props.onChange(this.props.fieldName, number, this.props.error);
     };
