@@ -4,6 +4,7 @@
 
 Demo: https://ayubondarenko.github.io/cellular_payment_terminal/
 
+![pic 1](https://github.com/ayubondarenko/cellular_payment_terminal/blob/master/src/pics/pay_mobile.png)
 1. _Installation_: `npm run build`
 
 2. _Open in browser_: _`./docs/index.html`_
